@@ -1,0 +1,614 @@
+{
+	"folders": [
+		{
+			"name": "GeometrySandbox",
+			"path": "."
+		},
+		{
+			"name": "UE5",
+			"path": "C:\\UE_5.3"
+		}
+	],
+	"settings": {
+		"typescript.tsc.autoDetect": "off",
+		"npm.autoDetect": "off",
+		"dotnet.defaultSolution": "GeometrySandbox/GeometrySandbox.sln"
+	},
+	"extensions": {
+		"recommendations": [
+			"ms-vscode.cpptools",
+			"ms-dotnettools.csharp"
+		]
+	},
+	"tasks": {
+		"version": "2.0.0",
+		"tasks": [
+			{
+				"label": "GeometrySandbox Win64 Debug Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"GeometrySandbox",
+					"Win64",
+					"Debug",
+					"G:\\Projects\\UE\\GeometrySandbox1\\GeometrySandbox.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\UE_5.3"
+				}
+			},
+			{
+				"label": "GeometrySandbox Win64 Debug Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"GeometrySandbox",
+					"Win64",
+					"Debug",
+					"G:\\Projects\\UE\\GeometrySandbox1\\GeometrySandbox.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"GeometrySandbox Win64 Debug Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\UE_5.3"
+				}
+			},
+			{
+				"label": "GeometrySandbox Win64 Debug Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"GeometrySandbox",
+					"Win64",
+					"Debug",
+					"G:\\Projects\\UE\\GeometrySandbox1\\GeometrySandbox.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\UE_5.3"
+				}
+			},
+			{
+				"label": "GeometrySandbox Win64 DebugGame Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"GeometrySandbox",
+					"Win64",
+					"DebugGame",
+					"G:\\Projects\\UE\\GeometrySandbox1\\GeometrySandbox.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\UE_5.3"
+				}
+			},
+			{
+				"label": "GeometrySandbox Win64 DebugGame Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"GeometrySandbox",
+					"Win64",
+					"DebugGame",
+					"G:\\Projects\\UE\\GeometrySandbox1\\GeometrySandbox.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"GeometrySandbox Win64 DebugGame Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\UE_5.3"
+				}
+			},
+			{
+				"label": "GeometrySandbox Win64 DebugGame Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"GeometrySandbox",
+					"Win64",
+					"DebugGame",
+					"G:\\Projects\\UE\\GeometrySandbox1\\GeometrySandbox.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\UE_5.3"
+				}
+			},
+			{
+				"label": "GeometrySandbox Win64 Development Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"GeometrySandbox",
+					"Win64",
+					"Development",
+					"G:\\Projects\\UE\\GeometrySandbox1\\GeometrySandbox.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\UE_5.3"
+				}
+			},
+			{
+				"label": "GeometrySandbox Win64 Development Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"GeometrySandbox",
+					"Win64",
+					"Development",
+					"G:\\Projects\\UE\\GeometrySandbox1\\GeometrySandbox.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"GeometrySandbox Win64 Development Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\UE_5.3"
+				}
+			},
+			{
+				"label": "GeometrySandbox Win64 Development Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"GeometrySandbox",
+					"Win64",
+					"Development",
+					"G:\\Projects\\UE\\GeometrySandbox1\\GeometrySandbox.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\UE_5.3"
+				}
+			},
+			{
+				"label": "GeometrySandbox Win64 Test Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"GeometrySandbox",
+					"Win64",
+					"Test",
+					"G:\\Projects\\UE\\GeometrySandbox1\\GeometrySandbox.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\UE_5.3"
+				}
+			},
+			{
+				"label": "GeometrySandbox Win64 Test Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"GeometrySandbox",
+					"Win64",
+					"Test",
+					"G:\\Projects\\UE\\GeometrySandbox1\\GeometrySandbox.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"GeometrySandbox Win64 Test Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\UE_5.3"
+				}
+			},
+			{
+				"label": "GeometrySandbox Win64 Test Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"GeometrySandbox",
+					"Win64",
+					"Test",
+					"G:\\Projects\\UE\\GeometrySandbox1\\GeometrySandbox.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\UE_5.3"
+				}
+			},
+			{
+				"label": "GeometrySandbox Win64 Shipping Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"GeometrySandbox",
+					"Win64",
+					"Shipping",
+					"G:\\Projects\\UE\\GeometrySandbox1\\GeometrySandbox.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\UE_5.3"
+				}
+			},
+			{
+				"label": "GeometrySandbox Win64 Shipping Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"GeometrySandbox",
+					"Win64",
+					"Shipping",
+					"G:\\Projects\\UE\\GeometrySandbox1\\GeometrySandbox.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"GeometrySandbox Win64 Shipping Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\UE_5.3"
+				}
+			},
+			{
+				"label": "GeometrySandbox Win64 Shipping Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"GeometrySandbox",
+					"Win64",
+					"Shipping",
+					"G:\\Projects\\UE\\GeometrySandbox1\\GeometrySandbox.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\UE_5.3"
+				}
+			},
+			{
+				"label": "GeometrySandboxEditor Win64 Debug Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"GeometrySandboxEditor",
+					"Win64",
+					"Debug",
+					"G:\\Projects\\UE\\GeometrySandbox1\\GeometrySandbox.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\UE_5.3"
+				}
+			},
+			{
+				"label": "GeometrySandboxEditor Win64 Debug Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"GeometrySandboxEditor",
+					"Win64",
+					"Debug",
+					"G:\\Projects\\UE\\GeometrySandbox1\\GeometrySandbox.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"GeometrySandboxEditor Win64 Debug Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\UE_5.3"
+				}
+			},
+			{
+				"label": "GeometrySandboxEditor Win64 Debug Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"GeometrySandboxEditor",
+					"Win64",
+					"Debug",
+					"G:\\Projects\\UE\\GeometrySandbox1\\GeometrySandbox.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\UE_5.3"
+				}
+			},
+			{
+				"label": "GeometrySandboxEditor Win64 DebugGame Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"GeometrySandboxEditor",
+					"Win64",
+					"DebugGame",
+					"G:\\Projects\\UE\\GeometrySandbox1\\GeometrySandbox.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\UE_5.3"
+				}
+			},
+			{
+				"label": "GeometrySandboxEditor Win64 DebugGame Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"GeometrySandboxEditor",
+					"Win64",
+					"DebugGame",
+					"G:\\Projects\\UE\\GeometrySandbox1\\GeometrySandbox.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"GeometrySandboxEditor Win64 DebugGame Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\UE_5.3"
+				}
+			},
+			{
+				"label": "GeometrySandboxEditor Win64 DebugGame Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"GeometrySandboxEditor",
+					"Win64",
+					"DebugGame",
+					"G:\\Projects\\UE\\GeometrySandbox1\\GeometrySandbox.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\UE_5.3"
+				}
+			},
+			{
+				"label": "GeometrySandboxEditor Win64 Development Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"GeometrySandboxEditor",
+					"Win64",
+					"Development",
+					"G:\\Projects\\UE\\GeometrySandbox1\\GeometrySandbox.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\UE_5.3"
+				}
+			},
+			{
+				"label": "GeometrySandboxEditor Win64 Development Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"GeometrySandboxEditor",
+					"Win64",
+					"Development",
+					"G:\\Projects\\UE\\GeometrySandbox1\\GeometrySandbox.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"GeometrySandboxEditor Win64 Development Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\UE_5.3"
+				}
+			},
+			{
+				"label": "GeometrySandboxEditor Win64 Development Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"GeometrySandboxEditor",
+					"Win64",
+					"Development",
+					"G:\\Projects\\UE\\GeometrySandbox1\\GeometrySandbox.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\UE_5.3"
+				}
+			}
+		]
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"name": "Launch GeometrySandbox (Debug)",
+				"request": "launch",
+				"program": "G:\\Projects\\UE\\GeometrySandbox1\\Binaries\\Win64\\UnrealGame-Win64-Debug.exe",
+				"preLaunchTask": "GeometrySandbox Win64 Debug Build",
+				"args": [
+				],
+				"cwd": "C:\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "C:\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "C:\\UE_5.3"
+				}
+			},
+			{
+				"name": "Launch GeometrySandbox (DebugGame)",
+				"request": "launch",
+				"program": "G:\\Projects\\UE\\GeometrySandbox1\\Binaries\\Win64\\UnrealGame-Win64-DebugGame.exe",
+				"preLaunchTask": "GeometrySandbox Win64 DebugGame Build",
+				"args": [
+				],
+				"cwd": "C:\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "C:\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "C:\\UE_5.3"
+				}
+			},
+			{
+				"name": "Launch GeometrySandbox (Development)",
+				"request": "launch",
+				"program": "G:\\Projects\\UE\\GeometrySandbox1\\Binaries\\Win64\\UnrealGame.exe",
+				"preLaunchTask": "GeometrySandbox Win64 Development Build",
+				"args": [
+				],
+				"cwd": "C:\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "C:\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "C:\\UE_5.3"
+				}
+			},
+			{
+				"name": "Launch GeometrySandbox (Test)",
+				"request": "launch",
+				"program": "G:\\Projects\\UE\\GeometrySandbox1\\Binaries\\Win64\\UnrealGame-Win64-Test.exe",
+				"preLaunchTask": "GeometrySandbox Win64 Test Build",
+				"args": [
+				],
+				"cwd": "C:\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "C:\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "C:\\UE_5.3"
+				}
+			},
+			{
+				"name": "Launch GeometrySandbox (Shipping)",
+				"request": "launch",
+				"program": "G:\\Projects\\UE\\GeometrySandbox1\\Binaries\\Win64\\UnrealGame-Win64-Shipping.exe",
+				"preLaunchTask": "GeometrySandbox Win64 Shipping Build",
+				"args": [
+				],
+				"cwd": "C:\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "C:\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "C:\\UE_5.3"
+				}
+			},
+			{
+				"name": "Launch GeometrySandboxEditor (Debug)",
+				"request": "launch",
+				"program": "C:\\UE_5.3\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-Debug.exe",
+				"preLaunchTask": "GeometrySandboxEditor Win64 Debug Build",
+				"args": [
+					"G:\\Projects\\UE\\GeometrySandbox1\\GeometrySandbox.uproject"
+				],
+				"cwd": "C:\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "C:\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "C:\\UE_5.3"
+				}
+			},
+			{
+				"name": "Launch GeometrySandboxEditor (DebugGame)",
+				"request": "launch",
+				"program": "C:\\UE_5.3\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-DebugGame.exe",
+				"preLaunchTask": "GeometrySandboxEditor Win64 DebugGame Build",
+				"args": [
+					"G:\\Projects\\UE\\GeometrySandbox1\\GeometrySandbox.uproject"
+				],
+				"cwd": "C:\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "C:\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "C:\\UE_5.3"
+				}
+			},
+			{
+				"name": "Launch GeometrySandboxEditor (Development)",
+				"request": "launch",
+				"program": "C:\\UE_5.3\\Engine\\Binaries\\Win64\\UnrealEditor.exe",
+				"preLaunchTask": "GeometrySandboxEditor Win64 Development Build",
+				"args": [
+					"G:\\Projects\\UE\\GeometrySandbox1\\GeometrySandbox.uproject"
+				],
+				"cwd": "C:\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "C:\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "C:\\UE_5.3"
+				}
+			},
+			{
+				"name": "Generate Project Files",
+				"type": "coreclr",
+				"request": "launch",
+				"preLaunchTask": "UnrealBuildTool Win64 Development Build",
+				"program": "C:\\UE_5.3\\Engine\\Build\\BatchFiles\\RunUBT.bat",
+				"args": [
+					"-projectfiles",
+					"-vscode",
+					"-project=G:\\Projects\\UE\\GeometrySandbox1\\GeometrySandbox.uproject",
+					"-game",
+					"-engine",
+					"-dotnet"
+				],
+				"console": "externalTerminal",
+				"stopAtEntry": false,
+				"cwd": "C:\\UE_5.3"
+			}
+		]
+	}
+}

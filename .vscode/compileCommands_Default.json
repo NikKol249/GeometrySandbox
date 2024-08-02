@@ -1,0 +1,106 @@
+[
+	{
+		"file": "G:\\Projects\\UE\\GeometrySandbox1\\Source\\GeometrySandbox\\GeometrySandbox.Build.cs",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Projects\\UE\\GeometrySandbox1\\.vscode\\compileCommands_Default\\GeometrySandbox.1.rsp"
+		],
+		"directory": "C:\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Projects\\UE\\GeometrySandbox1\\Source\\GeometrySandbox\\GeometrySandbox.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Projects\\UE\\GeometrySandbox1\\.vscode\\compileCommands_Default\\GeometrySandbox.1.rsp"
+		],
+		"directory": "C:\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Projects\\UE\\GeometrySandbox1\\Source\\GeometrySandbox\\GeometrySandbox.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Projects\\UE\\GeometrySandbox1\\.vscode\\compileCommands_Default\\GeometrySandbox.1.rsp"
+		],
+		"directory": "C:\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Projects\\UE\\GeometrySandbox1\\Source\\GeometrySandbox\\GeometrySandboxGameModeBase.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Projects\\UE\\GeometrySandbox1\\.vscode\\compileCommands_Default\\GeometrySandbox.1.rsp"
+		],
+		"directory": "C:\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Projects\\UE\\GeometrySandbox1\\Source\\GeometrySandbox\\GeometrySandboxGameModeBase.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Projects\\UE\\GeometrySandbox1\\.vscode\\compileCommands_Default\\GeometrySandbox.1.rsp"
+		],
+		"directory": "C:\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Projects\\UE\\GeometrySandbox1\\Source\\GeometrySandbox\\Private\\BaseGeometryActor.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Projects\\UE\\GeometrySandbox1\\.vscode\\compileCommands_Default\\GeometrySandbox.1.rsp"
+		],
+		"directory": "C:\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Projects\\UE\\GeometrySandbox1\\Source\\GeometrySandbox\\Private\\GeometryHubActor.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Projects\\UE\\GeometrySandbox1\\.vscode\\compileCommands_Default\\GeometrySandbox.1.rsp"
+		],
+		"directory": "C:\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Projects\\UE\\GeometrySandbox1\\Source\\GeometrySandbox\\Private\\SandboxPawn.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Projects\\UE\\GeometrySandbox1\\.vscode\\compileCommands_Default\\GeometrySandbox.1.rsp"
+		],
+		"directory": "C:\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Projects\\UE\\GeometrySandbox1\\Source\\GeometrySandbox\\Private\\SandboxPlayerController.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Projects\\UE\\GeometrySandbox1\\.vscode\\compileCommands_Default\\GeometrySandbox.1.rsp"
+		],
+		"directory": "C:\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Projects\\UE\\GeometrySandbox1\\Source\\GeometrySandbox\\Public\\BaseGeometryActor.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Projects\\UE\\GeometrySandbox1\\.vscode\\compileCommands_Default\\GeometrySandbox.1.rsp"
+		],
+		"directory": "C:\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Projects\\UE\\GeometrySandbox1\\Source\\GeometrySandbox\\Public\\GeometryHubActor.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Projects\\UE\\GeometrySandbox1\\.vscode\\compileCommands_Default\\GeometrySandbox.1.rsp"
+		],
+		"directory": "C:\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Projects\\UE\\GeometrySandbox1\\Source\\GeometrySandbox\\Public\\SandboxPawn.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Projects\\UE\\GeometrySandbox1\\.vscode\\compileCommands_Default\\GeometrySandbox.1.rsp"
+		],
+		"directory": "C:\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Projects\\UE\\GeometrySandbox1\\Source\\GeometrySandbox\\Public\\SandboxPlayerController.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Projects\\UE\\GeometrySandbox1\\.vscode\\compileCommands_Default\\GeometrySandbox.1.rsp"
+		],
+		"directory": "C:\\UE_5.3\\Engine\\Source"
+	}
+]
